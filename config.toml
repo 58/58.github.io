@@ -1,5 +1,5 @@
 # 公開するページのURL
-baseURL = "https://blog.pyrifolia.net"
+baseURL = "https://blog.pyrifolia.net/"
 
 languageCode = "ja"
 DefaultContentLanguage = "ja"
@@ -7,7 +7,7 @@ HasCJKLanguage = true
 enableRobotsTXT = true
 
 # ブログのタイトル
-title = "Pyrifolia"
+title = "ぴゅりふぉりあぶろぐ"
 
 theme = "mainroad"
 paginate = 20
