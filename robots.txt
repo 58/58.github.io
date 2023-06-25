@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://blog.pyrifolia.netsitemap.xml
+Sitemap: https://blog.pyrifolia.net/sitemap.xml
