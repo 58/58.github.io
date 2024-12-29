@@ -20,6 +20,9 @@ jobs:
       - name: Build
         run: hugo --minify -F
 
+      - name: Add CNAME
+        run: echo "blog.pyrifolia.net" > ./public/CNAME
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -28,4 +31,3 @@ jobs:
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: ${{ github.event.head_commit.message }}
-          keep_files: true
